@@ -15,6 +15,7 @@ document.getElementById('dataForm').addEventListener('submit', function(event) {
     // Send the data using fetch
     fetch('https://script.google.com/macros/s/AKfycbwxC82J0HqVbsKfuY1D9OuWj2yBiI2MNEJMB3zbPe_rWt0onB35CdPgW87hpcUihtvR/exec', {
         method: 'POST',
+        mode: 'no-cors', // Add this line to bypass CORS
         body: formData
     })
     .then(response => response.text())
