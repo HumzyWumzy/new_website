@@ -11,6 +11,7 @@ body {
     background-color: #f4f4f4;
     color: #333;
     padding: 20px;
+    text-align: center;
 }
 
 header {
@@ -57,12 +58,6 @@ footer {
     background-color: #333;
     color: white;
     margin-top: 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
 }
 
 nav ul li a:hover {
