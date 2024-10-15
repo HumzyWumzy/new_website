@@ -13,7 +13,7 @@ document.getElementById('dataForm').addEventListener('submit', function(event) {
     formData.append('message', message);
     
     // Send the data using fetch
-    fetch('https://script.google.com/macros/s/AKfycbyt6vnTeUxxDSbMjFvue2uiqmp2KDt6mcwNpGJ9MmYfSR5epbbyYkyyiDQhKhYr2F92/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbwxC82J0HqVbsKfuY1D9OuWj2yBiI2MNEJMB3zbPe_rWt0onB35CdPgW87hpcUihtvR/exec', {
         method: 'POST',
         body: formData
     })
