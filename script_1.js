@@ -18,8 +18,8 @@ document.getElementById('dataForm').addEventListener('submit', function(event) {
         mode: 'no-cors', // Add this line to bypass CORS
         body: formData
     })
-    .then(
-         console.log(response)
+    .then(var res = response
+         console.log(res)
         )
     .then(data => {
         document.getElementById('responseMessage').textContent = 'Form submitted successfully!';
